@@ -29,3 +29,12 @@ a:link, a:visited {
     color: white;
     background-color: rgb(52,68,92);
   }
+
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item{
+  padding: 20px;
+  font-size: small;
+}
