@@ -38,3 +38,8 @@ a:link, a:visited {
   padding: 20px;
   font-size: small;
 }
+.title-text{
+  width:268px;
+  word-break: break-all;
+  
+}
