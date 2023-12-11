@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: rgb(13,17,23);
+    background-color: #0d1117;
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -25,10 +25,10 @@ a:link, a:visited {
     
   }
   
-  a:hover, a:active {
-    color: white;
-    background-color: rgb(52,68,92);
-  }
+a:hover, a:active {
+  color: white;
+  background-color: rgb(52,68,92);
+}
 
 .grid-container{
   display: inline-grid;
