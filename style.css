@@ -10,36 +10,46 @@ h1 {
     font-size: 50;
 }
 
-
+img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
 
 a:link, a:visited {
-    font-weight: bold;
-    background-color: rgb(33,43,58);
-    color: white;
-    padding: 10px 70px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-style: solid;
-    border-color: white;
+  font-weight: bold;
+  background-color: rgb(33,43,58);
+  color: white;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  border-color: white;
     
-  }
+}
   
 a:hover, a:active {
   color: white;
   background-color: rgb(52,68,92);
 }
 
-.grid-container{
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
+.grid-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-column-gap: 20px;
+  align-items: end;
+  place-content: center;
+  
 }
-.grid-item{
+.grid-item {
   padding: 20px;
   font-size: small;
 }
-.title-text{
-  width:268px;
+.title-text {
+  width:280px;
   word-break: break-all;
+  align-self: center;
   
 }
