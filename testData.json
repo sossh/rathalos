@@ -1,16 +1,14 @@
-{
-    "items": [
-      {
-        "title": "Test Item 1",
-        "numItemListings": 11,
-        "lowestPriceListing": 121,
-        "averagePriceListing": 312
-      },
-      {
-        "title": "Test Item 2",
-        "numItemListings": 32,
-        "lowestPriceListing": 123,
-        "averagePriceListing": 345
-      }
-    ]
+[
+  {
+    "title": "Test Item 1",
+    "numItemListings": 11,
+    "lowestPriceListing": 121,
+    "averagePriceListing": 312
+  },
+  {
+    "title": "Test Item 2",
+    "numItemListings": 32,
+    "lowestPriceListing": 123,
+    "averagePriceListing": 345
   }
+]
