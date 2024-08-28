@@ -26,5 +26,19 @@
     "lowestPriceListing": 787,
     "averagePriceListing": 901,
     "itemCategory": "Misc"
+  },
+  {
+    "title": "Test Item 5",
+    "numItemListings": 111,
+    "lowestPriceListing": 1231,
+    "averagePriceListing": 3112,
+    "itemCategory": "Misc"
+  },
+  {
+    "title": "Test Item 6",
+    "numItemListings": 62,
+    "lowestPriceListing": 787,
+    "averagePriceListing": 901,
+    "itemCategory": "Misc"
   }
 ]
