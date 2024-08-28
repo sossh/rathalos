@@ -3,12 +3,28 @@
     "title": "Test Item 1",
     "numItemListings": 11,
     "lowestPriceListing": 121,
-    "averagePriceListing": 312
+    "averagePriceListing": 312,
+    "itemCategory": "Graphics Card"
   },
   {
     "title": "Test Item 2",
     "numItemListings": 32,
     "lowestPriceListing": 123,
-    "averagePriceListing": 345
+    "averagePriceListing": 345,
+    "itemCategory": "CPU"
+  },
+  {
+    "title": "Test Item 3",
+    "numItemListings": 111,
+    "lowestPriceListing": 1231,
+    "averagePriceListing": 3112,
+    "itemCategory": "Misc"
+  },
+  {
+    "title": "Test Item 4",
+    "numItemListings": 62,
+    "lowestPriceListing": 787,
+    "averagePriceListing": 901,
+    "itemCategory": "Misc"
   }
 ]
