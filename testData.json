@@ -4,41 +4,47 @@
     "numItemListings": 11,
     "lowestPriceListing": 121,
     "averagePriceListing": 312,
-    "itemCategory": "Graphics Card"
+    "itemCategory": "Graphics Card",
+    "priceChange": 129
   },
   {
     "title": "Test Item 2",
     "numItemListings": 32,
     "lowestPriceListing": 123,
     "averagePriceListing": 345,
-    "itemCategory": "CPU"
+    "itemCategory": "CPU",
+    "priceChange": 1292
   },
   {
     "title": "Test Item 3",
     "numItemListings": 111,
     "lowestPriceListing": 1231,
     "averagePriceListing": 3112,
-    "itemCategory": "Misc"
+    "itemCategory": "Misc",
+    "priceChange": -12
   },
   {
     "title": "Test Item 4",
     "numItemListings": 62,
     "lowestPriceListing": 787,
     "averagePriceListing": 901,
-    "itemCategory": "Misc"
+    "itemCategory": "Misc",
+    "priceChange": -129
   },
   {
     "title": "Test Item 5",
     "numItemListings": 111,
     "lowestPriceListing": 1231,
     "averagePriceListing": 3112,
-    "itemCategory": "Misc"
+    "itemCategory": "Misc",
+    "priceChange": 29
   },
   {
     "title": "Test Item 6",
     "numItemListings": 62,
     "lowestPriceListing": 787,
     "averagePriceListing": 901,
-    "itemCategory": "Misc"
+    "itemCategory": "Misc",
+    "priceChange": 0
   }
 ]
