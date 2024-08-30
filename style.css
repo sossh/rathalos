@@ -1,55 +1,121 @@
 body {
+    background-color: #303136;
     color: white;
-    background-color: #0d1117;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.backToTop, .backToTop:link, .backToTop:visited, .backToTop:active {
+    
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    background-color: #212226;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+
+
+    text-decoration: none;
     text-align: center;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-h1 { 
     color: white;
-    font-size: 50;
 }
 
-img {
-  width: 300px;
-  height: 250px;
-  object-fit: cover;
-}
+/* Home Page Section */
 
-a:link, a:visited {
-  font-weight: bold;
-  background-color: rgb(33,43,58);
-  color: white;
-  padding: 10px 70px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-style: solid;
-  border-color: white;
+.itemCardContainer {
+    display: grid;
+    justify-content: center;
+    max-width: 100vw;
+    grid-template-columns: repeat(auto-fill, minmax(530px, 33vw));
     
 }
-  
-a:hover, a:active {
-  color: white;
-  background-color: rgb(52,68,92);
+
+
+.itemCard {
+    display: grid;
+    margin: .4rem;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: .5rem;
+    background-color: #212226;
 }
 
-.grid-container {
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(auto-fit, 300px);
-  grid-column-gap: 20px;
-  align-items: end;
-  place-content: center;
-  
+
+.itemColorArea {
+    color: #0d1117;
+    background-color: #b14135;
+    
+    display: grid;
+    
 }
-.grid-item {
-  padding: 20px;
-  font-size: small;
+
+.itemTitleLink, .itemTitleLink:visited, .itemTitleLink:link{
+    color: #0d1117;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.45rem;
+    white-space: nowrap;
+    overflow: hidden;
+
+    grid-row: 1;
+    
+    padding: 0.3rem;
+    padding-bottom: 0px;
+    
 }
-.title-text {
-  width:280px;
-  word-break: break-all;
-  align-self: center;
-  
+
+.itemTitleLink:hover, .itemTitleLink:active {
+    color: white;
 }
+
+.numItemListings {
+    margin:0;
+    padding-left: 0.7rem;
+    padding-bottom: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.itemCategory {
+    display: flex;
+    grid-row: 1;
+    grid-column: 2;
+    justify-content: right;
+    margin: 0.2rem;
+    margin-right: 0.3rem;
+
+    font-size: .8rem;
+
+}
+
+.cardDataContainer {
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-top: 0.5rem;padding-bottom: 0.5rem;
+    
+
+}
+.cardData {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    
+}
+
+.boldText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* Listing Display Section */

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Test Item 1",
     "numItemListings": 11,
     "lowestPriceListing": 121,
@@ -8,6 +9,7 @@
     "priceChange": 129
   },
   {
+    "id": 2,
     "title": "Test Item 2",
     "numItemListings": 32,
     "lowestPriceListing": 123,
@@ -16,6 +18,7 @@
     "priceChange": 1292
   },
   {
+    "id": 3,
     "title": "Test Item 3",
     "numItemListings": 111,
     "lowestPriceListing": 1231,
@@ -24,6 +27,7 @@
     "priceChange": -12
   },
   {
+    "id": 4,
     "title": "Test Item 4",
     "numItemListings": 62,
     "lowestPriceListing": 787,
@@ -32,6 +36,7 @@
     "priceChange": -129
   },
   {
+    "id": 5,
     "title": "Test Item 5",
     "numItemListings": 111,
     "lowestPriceListing": 1231,
@@ -40,6 +45,7 @@
     "priceChange": 29
   },
   {
+    "id": 6,
     "title": "Test Item 6",
     "numItemListings": 62,
     "lowestPriceListing": 787,
