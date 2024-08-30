@@ -1,56 +1,158 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "Test Item 1",
     "numItemListings": 11,
     "lowestPriceListing": 121,
     "averagePriceListing": 312,
     "itemCategory": "Graphics Card",
-    "priceChange": 129
+    "priceChange": 129,
+    "listings": 
+    [
+      {
+        "title": "Test Listing 1",
+        "price": 121,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      },
+      {
+        "title": "Test Listing 2",
+        "price": 400,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      }
+    ]
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Test Item 2",
     "numItemListings": 32,
     "lowestPriceListing": 123,
     "averagePriceListing": 345,
     "itemCategory": "CPU",
-    "priceChange": 1292
+    "priceChange": 1292,
+    "listings": 
+    [
+      {
+        "title": "Test Listing 1",
+        "price": 121,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      },
+      {
+        "title": "Test Listing 2",
+        "price": 400,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      }
+    ]
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Test Item 3",
     "numItemListings": 111,
     "lowestPriceListing": 1231,
     "averagePriceListing": 3112,
     "itemCategory": "Misc",
-    "priceChange": -12
+    "priceChange": -12,
+    "listings": 
+    [
+      {
+        "title": "Test Listing 1",
+        "price": 121,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      },
+      {
+        "title": "Test Listing 2",
+        "price": 400,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      }
+    ]
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Test Item 4",
     "numItemListings": 62,
     "lowestPriceListing": 787,
     "averagePriceListing": 901,
     "itemCategory": "Misc",
-    "priceChange": -129
+    "priceChange": -129,
+    "listings": 
+    [
+      {
+        "title": "Test Listing 1",
+        "price": 121,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      },
+      {
+        "title": "Test Listing 2",
+        "price": 400,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      }
+    ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Test Item 5",
     "numItemListings": 111,
     "lowestPriceListing": 1231,
     "averagePriceListing": 3112,
     "itemCategory": "Misc",
-    "priceChange": 29
+    "priceChange": 29,
+    "listings": 
+    [
+      {
+        "title": "Test Listing 1",
+        "price": 121,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      },
+      {
+        "title": "Test Listing 2",
+        "price": 400,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      }
+    ]
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Test Item 6",
     "numItemListings": 62,
     "lowestPriceListing": 787,
     "averagePriceListing": 901,
     "itemCategory": "Misc",
-    "priceChange": 0
+    "priceChange": 0,
+    "listings": 
+    [
+      {
+        "title": "Test Listing 1",
+        "price": 121,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      },
+      {
+        "title": "Test Listing 2",
+        "price": 400,
+        "url": "https://www.facebook.com/marketplace/item/1091625945813872/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3Aeb28c8c7-2618-4bd4-9bf1-9b8f1656399a&__tn__=!%3AD",
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t45.5328-4/456082764_1470734316932997_6494308934601598337_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=hdxH0O6Iug8Q7kNvgH78yU6&_nc_ht=scontent-ord5-1.xx&oh=00_AYCUoeRZQEsBtCmTBTzJsAUUrH0tjK4Zsfz6fEOtp3116w&oe=66D6FFB8",
+        "websiteObtained": "Facebook Marketplace"
+      }
+    ]
   }
 ]
