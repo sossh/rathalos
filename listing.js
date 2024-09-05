@@ -21,7 +21,7 @@ fetch("https://sossh.github.io/rathalos/testData.json")
 
     // Add the date scraped
     const scrapedDate = document.getElementById("dateScraped")
-    scrapedDate.textContent = listing.scrapedAtTime
+    scrapedDate.textContent = item.scrapedAtTime
 
     item.listings.forEach(listing => {
         // clone the template, so it can be edited.
