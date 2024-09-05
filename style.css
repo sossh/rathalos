@@ -18,7 +18,7 @@ body {
 .backToTop, .backToTop:link, .backToTop:visited, .backToTop:active {
     
     margin: auto;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
     width: 50%;
     background-color: var(--innerColor);

@@ -10,11 +10,13 @@
     </head>
 
     <body>
-        <a id="top"></a><a style="text-align: left; display:block;" href="index.html">Back to Homepage</a>
+        <a id="top"></a><a style="text-align: left;" href="index.html">Back to Homepage</a>
 
         <h1 id="pageTitle", style="margin-top: 50px;"></h1>
         <hr>
-        <div></div>
+        <div>
+            <p id="dateScraped"></p>
+        </div>
         <hr>
 
 
@@ -28,14 +30,16 @@
 
 
 
-
+        <div class="backToTop">
+            <a style="text-decoration: none; text-align: center; color: white;" href="#top">Back to top</a>
+        </div>
 
     </body>
     <template id="listingCard">
         <div class="listingCard">
             
-            <p id="listingTitle"></p>
             <a id="itemPriceLink", href="", target="_blank"></a>
+            <p id="listingTitle"></p>
             <p id="websiteObtained"></p>
             <div>
                 <img id="listingImage", class="listingImage", src="">
