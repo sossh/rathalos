@@ -15,9 +15,13 @@ fetch("https://sossh.github.io/rathalos/testData.json")
     // Set the page title.
     document.title = item.title
 
-    // Set the title on body
+    // Set the title on webpage
     const pageTitle = document.getElementById("pageTitle")
     pageTitle.textContent = item.title
+
+    // Add the date scraped
+    const scrapedDate = document.getElementById("dateScraped")
+    scrapedDate.textContent = listing.scrapedAtTime
 
     item.listings.forEach(listing => {
         // clone the template, so it can be edited.
