@@ -20,6 +20,9 @@ fetch(jsonUrl)
             title.textContent = item.title;
             title.setAttribute('href', (listingPagePath+"?id="+item.id.toString()));
 
+            //const itemCardLink = newCard.getElementById("itemCardLink")
+            //itemCardLink.setAttribute("href", (listingPagePath+"?id="+item.id.toString()))
+
             const numItemListings = newCard.getElementById("numItemListings");
             numItemListings.textContent = item.numItemListings.toString();
 

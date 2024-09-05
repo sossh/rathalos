@@ -33,7 +33,7 @@ fetch("https://sossh.github.io/rathalos/testData.json")
         const websiteObtained = newListingCard.getElementById("websiteObtained")
         websiteObtained.textContent = listing.listingWebsite
 
-        const image = newListingCard.getElementById("image")
+        const image = newListingCard.getElementById("listingImage")
         image.setAttribute("src",listing.listingImage)
 
 
