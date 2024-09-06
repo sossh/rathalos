@@ -38,6 +38,11 @@ hr {
     margin: 20;
 }
 
+.boldText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
 /* Home Page Section */
 
 .itemCardContainer {
@@ -129,14 +134,44 @@ hr {
     
 }
 
-.boldText {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+
+/* Listing Display Section */
+
+.backToHomepageContainer {
+    display: flex;
+    padding-top: 0.20rem;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+
+    border-radius: 0.5rem; 
+    background-color: var(--innerColor);
+    border: 1px solid;
+    border-color: var(--accentColor);
+    width: fit-content;
+}
+
+.backToHomePageText {
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: left; 
+    text-decoration: none;
+    color: var(--accentColor);
+}
+.backToHomePageText:hover, .backToHomePageText:active {
+    color: var(--outlineColor)
 }
 
 
-/* Listing Display Section */
+.backToHomepageImage {
+
+    padding-left: 0px;
+    padding:0.3rem;
+    width: 50px;
+    height: 50px;
+    border: 0px solid; 
+    border-radius: 0.25rem; 
+
+}
 
 .listingCardContainer {
     
@@ -154,15 +189,42 @@ hr {
 }
 
 .listingCard {
-    display: grid;
+    display: block;
+    padding:5px;
 
     width: 280px;
     height:400px;
-    border: 1px solid var(--outlineColor);
+    border: 1px solid var(--accentColor);
+    background-color: var(--innerColor);
     border-radius: 0.5rem;
     align-content: center;
     
     
     overflow: hidden;
     
+}
+
+.listingTitle {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.itemPriceLink {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.listingImage{
+    display: block;
+    width: 276px;
+    height: 276px;
+    
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dateScraped {
+    text-align: center;
 }

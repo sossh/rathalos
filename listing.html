@@ -10,12 +10,19 @@
     </head>
 
     <body>
-        <a id="top"></a><a style="text-align: left;" href="index.html">Back to Homepage</a>
+        <a id="top"></a>
+
+        <div class="backToHomepageContainer">
+            <a href="index.html">
+                <img id="listingImage", class="backToHomepageImage", src="icon.png">
+            </a>
+            <a class="backToHomePageText", href="index.html">Back to Homepage</a>
+        </div>
 
         <h1 id="pageTitle", style="margin-top: 50px;"></h1>
         <hr>
         <div>
-            <p id="dateScraped"></p>
+            <p class="dateScraped">Listings obtained on: <span id="dateScraped", class="boldText"></span></p>
         </div>
         <hr>
 
@@ -38,9 +45,13 @@
     <template id="listingCard">
         <div class="listingCard">
             
-            <a id="itemPriceLink", href="", target="_blank"></a>
-            <p id="listingTitle"></p>
-            <p id="websiteObtained"></p>
+            <a>
+                <p class="listingTitle", id="listingTitle"></p>
+            </a>
+            <a class="itemPriceLink", id="itemPriceLink", href="", target="_blank"></a>
+            <a>
+                <p id="websiteObtained"></p>
+            </a>
             <div>
                 <img id="listingImage", class="listingImage", src="">
             </div>
