@@ -1,19 +1,36 @@
-const jsonUrl = "https://sossh.github.io/rathalos/testData.json"
-const listingPagePath = "listing.html"
+const jsonUrl = "https://sossh.github.io/rathalos/testData.json";
+const listingPagePath = "listing.html";
 
-const itemCardTemplate = document.getElementById("itemCard")
-const itemCardContainer = document.getElementById("itemCardContainer")
+const itemCardTemplate = document.getElementById("itemCardTemplate");
+const itemCardContainer = document.getElementById("itemCardContainer");
+const searchInput = document.querySelector("[data-search]");
+
+let items = [];
+
+// Runs everytime the user types into the input.
+searchInput.addEventListener("input", e => {
+    const userSearchInput = e.target.value;
+    items.forEach(itemData => {
+
+        // Check if the users search input lines up with title or category
+        const isVisible = itemData.title.toLowerCase().includes(userSearchInput.toLowerCase()) || itemData.itemCategory.toLowerCase().includes(userSearchInput.toLowerCase())
+
+        // Adds the .hide class to the element if it shouldn't be shown
+        itemData.element.classList.toggle("hide", !isVisible)
+    });
+    
+});
 
 fetch(jsonUrl)
     .then(res => res.json())
     .then(data => {
-        data.forEach(item => {
+        items = data.map(item => {
             
 
             // create a new item card. 
 
             // clone the template, so it can be edited.
-            const newCard = itemCardTemplate.content.cloneNode(true);
+            let newCard = itemCardTemplate.content.cloneNode(true);
 
             // change elements on the new clone.
             const title = newCard.getElementById("itemTitleLink");
@@ -34,7 +51,7 @@ fetch(jsonUrl)
 
             const itemCategory = newCard.getElementById("itemCategory");
             itemCategory.textContent = item.itemCategory;
-            
+
 
             // Price change logic to determine color
             let priceChange = newCard.getElementById("priceChange");
@@ -53,9 +70,15 @@ fetch(jsonUrl)
                 priceChange.textContent = "$" + item.priceChange.toString();
                 priceChange.style.color = "white";
             }
-            // add the new card to the itemCardContainer.
+
+            // Get rid of the document fragment
+            newCard = newCard.children[0];
+
+            // Add the new card to the itemCardContainer.
             itemCardContainer.append(newCard);
 
+            // return the object of search data so it can be used for the searchbar
+            return {title: item.title, itemCategory: item.itemCategory, element:newCard}
             
         });
 

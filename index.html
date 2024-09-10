@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rathalos</title>
         <link rel="icon" type="image/x-icon" href="icon.png">
-        <script src="script.js" defer></script>
+        <script src="homepage.js" defer></script>
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -21,6 +21,10 @@
         <h1 style="margin-top: 50px; text-align: center;">Project Rathalos</h1>
         <hr>
 
+        <div class="searchBarWrapper">
+            <input type="search", id="search", placeholder="Search..." data-search>
+        </div>
+
         <div id="itemCardContainer", class="itemCardContainer"></div>
 
         
@@ -30,8 +34,8 @@
         
         
     </body>
-    <template id="itemCard">
-        <div class ="itemCard">
+    <template id="itemCardTemplate">
+        <div class ="itemCard", id="itemCard">
             
             <div id="itemColorArea", class="itemColorArea">
                 <a id="itemTitleLink", class = "itemTitleLink", href="listing.html?id=1"></a>
