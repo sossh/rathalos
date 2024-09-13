@@ -29,16 +29,20 @@ fetch("https://sossh.github.io/rathalos/testData.json")
 
         const listingTitle = newListingCard.getElementById("listingTitle")
         listingTitle.textContent = listing.title
+        listingTitle.setAttribute("href",listing.listingURL)
 
         const itemPriceLink = newListingCard.getElementById("itemPriceLink")
-        itemPriceLink.textContent = listing.listingPrice.toString()
+        itemPriceLink.textContent = "$"+listing.listingPrice.toString()
         itemPriceLink.setAttribute("href",listing.listingURL)
 
         const websiteObtained = newListingCard.getElementById("websiteObtained")
         websiteObtained.textContent = listing.listingWebsite
+        websiteObtained.setAttribute("href",listing.listingURL)
 
         const image = newListingCard.getElementById("listingImage")
         image.setAttribute("src",listing.listingImage)
+        const imageLink = newListingCard.getElementById("listingImageLink")
+        imageLink.setAttribute("href",listing.listingURL)
 
 
         // Add the new card to the listing card container.
