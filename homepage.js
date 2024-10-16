@@ -44,10 +44,10 @@ fetch(jsonUrl)
             numItemListings.textContent = item.numItemListings.toString();
 
             const lowestPriceListing = newCard.getElementById("lowestPriceListing");
-            lowestPriceListing.textContent = "$" + item.lowestPriceListing.toString();
+            lowestPriceListing.textContent = "$" + item.lowestPriceListing.toFixed(2).toString();
 
             const averagePriceListing = newCard.getElementById("averagePriceListing");
-            averagePriceListing.textContent = "$" + item.averagePriceListing.toString();
+            averagePriceListing.textContent = "$" + item.averagePriceListing.toFixed(2).toString();
 
             const itemCategory = newCard.getElementById("itemCategory");
             itemCategory.textContent = item.itemCategory;
@@ -57,17 +57,17 @@ fetch(jsonUrl)
             let priceChange = newCard.getElementById("priceChange");
             if(item.priceChange < 0) {
                 // price has gone down so chnage is negative
-                priceChange.textContent = "-$" + (-1*item.priceChange).toString();
+                priceChange.textContent = "-$" + ((-1*item.priceChange).toFixed(2)).toString();
                 priceChange.style.color = "green";
             }
             else if(item.priceChange > 0) {
                 // price has gone up so chnage is positive
-                priceChange.textContent = "+$" + item.priceChange.toString();
+                priceChange.textContent = "+$" + item.priceChange.toFixed(2).toString();
                 priceChange.style.color = "red";
             }
             else{
                 // price is likely 0 so no change
-                priceChange.textContent = "$" + item.priceChange.toString();
+                priceChange.textContent = "$" + item.priceChange.toFixed(2).toString();
                 priceChange.style.color = "white";
             }
 

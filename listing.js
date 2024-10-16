@@ -32,7 +32,7 @@ fetch("https://sossh.github.io/rathalos/testData.json")
         listingTitle.setAttribute("href",listing.listingURL)
 
         const itemPriceLink = newListingCard.getElementById("itemPriceLink")
-        itemPriceLink.textContent = "$"+listing.listingPrice.toString()
+        itemPriceLink.textContent = "$"+listing.listingPrice.toFixed(2).toString()
         itemPriceLink.setAttribute("href",listing.listingURL)
 
         const websiteObtained = newListingCard.getElementById("websiteObtained")
